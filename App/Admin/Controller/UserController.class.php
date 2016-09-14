@@ -30,7 +30,14 @@ class UserController extends CommonController{
 
     public function store(){
         $data = $_POST;
-        $this->success('ok');
+        var_dump($data);die;
+        $User = M('User');
+        if($User->add($data))
+        {
+            $this->dwzAjaxReturn(200,'添加用户成功!!!','User_index');
+        }else{
+            $this->dwzAjaxReturn(300,'添加用户失败!!!','User_index');
+        }
     }
 
     /**
@@ -42,7 +49,7 @@ class UserController extends CommonController{
         $pagesize   = C('PAGE_SIZE');
         $count      = $User->count();// 查询满足要求的总记录数
         $Page       = new \Think\Page($count,$pagesize);
-        $list       = $User->limit($Page->firstRow.','.$Page->listRows)->select();
+        $list       = $User->limit($Page->firstRow.','.$Page->listRows)->order("id DESC")->select();
         $this->assign('list',$list);
         $this->assign('count',$count);
         $this->assign('numPerPage',$Page->listRows);
