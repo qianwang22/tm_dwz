@@ -1,0 +1,100 @@
+[ 2016-09-14T11:26:37+08:00 ] 127.0.0.1 /tm_dwz/a.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.016000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.016000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028001s ]
+
+[ 2016-09-14T11:26:40+08:00 ] 127.0.0.1 /tm_dwz/a.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-14T11:26:41+08:00 ] 127.0.0.1 /tm_dwz/a.php?m=Admin&c=Public&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-14T11:26:47+08:00 ] 127.0.0.1 /tm_dwz/a.php?m=Admin&c=Login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-14T11:26:48+08:00 ] 127.0.0.1 /tm_dwz/a.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant 操作系统 - assumed '操作系统' D:\Wamp\www\Demo\tm_dwz\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 365 行.
+NOTIC: [8] Use of undefined constant 运行环境 - assumed '运行环境' D:\Wamp\www\Demo\tm_dwz\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 367 行.
+NOTIC: [8] Use of undefined constant PHP运行方式 - assumed 'PHP运行方式' D:\Wamp\www\Demo\tm_dwz\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 371 行.
+NOTIC: [8] Use of undefined constant ThinkPHP版本 - assumed 'ThinkPHP版本' D:\Wamp\www\Demo\tm_dwz\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 373 行.
+NOTIC: [8] Use of undefined constant 上传附件限制 - assumed '上传附件限制' D:\Wamp\www\Demo\tm_dwz\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 377 行.
+NOTIC: [8] Use of undefined constant 执行时间限制 - assumed '执行时间限制' D:\Wamp\www\Demo\tm_dwz\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 379 行.
+NOTIC: [8] Use of undefined constant 服务器时间 - assumed '服务器时间' D:\Wamp\www\Demo\tm_dwz\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 383 行.
+NOTIC: [8] Use of undefined constant 北京时间 - assumed '北京时间' D:\Wamp\www\Demo\tm_dwz\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 385 行.
+NOTIC: [8] Use of undefined constant 剩余空间 - assumed '剩余空间' D:\Wamp\www\Demo\tm_dwz\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 391 行.
+NOTIC: [8] Use of undefined constant register_globals - assumed 'register_globals' D:\Wamp\www\Demo\tm_dwz\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 395 行.
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' D:\Wamp\www\Demo\tm_dwz\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 397 行.
+NOTIC: [8] Use of undefined constant magic_quotes_runtime - assumed 'magic_quotes_runtime' D:\Wamp\www\Demo\tm_dwz\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 401 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
